@@ -1,0 +1,35 @@
+# Expense Tracker
+
+## Project Setup
+
+1. Cloning the repository.
+2. Install dependencies  by `npm install`command.
+3. Configure the MySQL connection in `config/config.json`.
+4. Run the server: `node server.js`.
+
+## Dependencies
+
+- express
+- sequelize
+- mysql2
+- bcryptjs
+- jsonwebtoken
+- body-parser
+
+## Functionalities
+
+- User registration and login
+- Add, view, update, and delete expenses
+- Secure password storage using hashing
+- User authentication and authorization
+
+## Instructions to Run
+
+1. Ensure MySQL server is running and create a database named `expense_tracker`.
+2. Update MySQL credentials in `config/config.json`.
+3. Run the server using `node server.js`.
+4. Used an API client i.e Postman to interact with the API endpoints.
+
+## API Endpoints
+
+- `POST /auth/register

@@ -1,0 +1,10 @@
+{
+    "development": {
+      "username": "Shawn",
+      "password": "Shawn9540!",
+      "database": "expenses",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    }
+  }
+  
